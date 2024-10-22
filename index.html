@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb | Holiday rantals, cabins, beach housed and more</title>
+    <link rel="icon" href="./assets/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="input.css" />
+    <script src="https://kit.fontawesome.com/4cc056f7d0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="md:mb-8 md:pb-4 md:border-[0.5px] md:border-slate-200">
+        <div class="hidden md:flex justify-between px-10 py-5">
+            <i class="fa-brands fa-airbnb text-4xl text-orange-600"></i>
+            <div class="flex space-x-5 items-center">
+                <span class="font-semibold">Airbnb your home</span>
+                <i class="fa-solid fa-globe"></i>
+                <div class="pl-4 pr-2 py-1.5 space-x-3 border-[0.5px] border-slate-200 rounded-full">
+                    <i class="fa fa-list"></i>
+                    <i class="fa-regular fa-user border border-slate-700 p-2 rounded-full bg-black text-white"></i>
+                </div>
+            </div>
+        </div>
+        <div class="hidden md:flex lg:-mt-14 justify-center space-x-5 mb-3 mt-2">
+            <div class="font-semibold">Stays</div>
+            <div class="font-semibold text-slate-500">Experiences</div>
+        </div>
+        <div class="flex space-x-3 px-6 md:px-10 lg:px-16 py-4 lg:-mb-3 items-center justify-between lg:w-[1000px] mx-auto">
+            <div class="flex items-center space-x-6 border-[0.5px] border-slate-400 rounded-full md:px-5 md:pr-2 py-2 w-full">
+                <div class="hidden md:flex pl-3 w-full justify-between text-sm">
+                    <div class="overflow-hidden text-nowrap border-r-2 border-r-slate-200 pr-[25%]">
+                        <p class="text-xs">Where</p>
+                        <p class="text-slate-600">Search destinations</p>
+                    </div>
+                    <div class="overflow-hidden text-nowrap pr-16 pl-4 border-r-2 border-r-slate-200">
+                        <p class="text-xs">Check in</p>
+                        <p class="text-slate-600">Add date</p>
+                    </div>
+                    <div class="overflow-hidden text-nowrap pr-16 pl-4 border-r-2 border-r-slate-200">
+                        <p class="text-xs">Check out</p>
+                        <p class="text-slate-600">Add date</p>
+                    </div>
+                    <div class="overflow-hidden text-nowrap pl-4">
+                        <p class="text-xs">Who</p>
+                        <p class="text-slate-600">Add guests</p>
+                    </div>
+                </div>
+                <div class="md:bg-orange-600 md:w-14 md:aspect-square md:justify-center md:flex md:items-center md:text-white md:rounded-full">
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="md:hidden">
+                    <div>Where to?</div>
+                    <div class="flex text-xs items-center space-x-2">
+                        <div>Anywhere</div>
+                        <i class="fa fa-circle text-[2px]"></i>
+                        <div>Any week</div>
+                        <i class="fa fa-circle text-[2px]"></i>
+                        <div>Add guests</div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-10 h-10 border-slate-400 border-[0.5px] p-3 rounded-full flex justify-center md:hidden">
+                <i class="fa fa-filter"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- navbar -->
+    <nav class="flex justify-between px-6 md:px-10 lg:px-16 space-x-5">
+        <div class="flex space-x-10 w-full pb-4 overflow-x-hidden shadow-sm shadow-slate-200 md:shadow-none">
+            <div class="flex items-center flex-col border-b-black border-b-[3px] pb-2 px-4">
+                <img class="w-6" src="./assets/icons/cabins.png" />
+                <span class="text-sm">Cabins</span>
+            </div>
+            <div class="flex items-center cursor-pointer flex-col opacity-60 hover:opacity-100 hover:border-b-[3px] hover:border-b-slate-300">
+                <img class="w-6" src="./assets/icons/icons.webp" />
+                <span class="text-sm">Icons</span>
+            </div>
+            <div class="flex items-center cursor-pointer flex-col opacity-60 hover:opacity-100 hover:border-b-[3px] hover:border-b-slate-300">
+                <img class="w-6" src="./assets/icons/omg.png" />
+                <span class="text-sm">OMG!</span>
+            </div>
+            <div class="flex items-center cursor-pointer flex-col opacity-60 hover:opacity-100 hover:border-b-[3px] hover:border-b-slate-300">
+                <img class="w-6" src="./assets/icons/countryside.png" />
+                <span class="text-sm">Countryside</span>
+            </div>
+            <div class="flex items-center cursor-pointer flex-col opacity-60 hover:opacity-100 hover:border-b-[3px] hover:border-b-slate-300">
+                <img class="w-6" src="./assets/icons/cabins.png" />
+                <span class="text-sm">Cabins</span>
+            </div>
+            <div class="flex items-center cursor-pointer flex-col opacity-60 hover:opacity-100 hover:border-b-[3px] hover:border-b-slate-300">
+                <img class="w-6" src="./assets/icons/icons.webp" />
+                <span class="text-sm">Icons</span>
+            </div>
+            <div class="flex items-center cursor-pointer flex-col opacity-60 hover:opacity-100 hover:border-b-[3px] hover:border-b-slate-300">
+                <img class="w-6" src="./assets/icons/omg.png" />
+                <span class="text-sm">OMG!</span>
+            </div>
+            <div class="flex items-center cursor-pointer flex-col opacity-60 hover:opacity-100 hover:border-b-[3px] hover:border-b-slate-300">
+                <img class="w-6" src="./assets/icons/countryside.png" />
+                <span class="text-sm">Countryside</span>
+            </div>
+            <div class="flex items-center cursor-pointer flex-col opacity-60 hover:opacity-100 hover:border-b-[3px] hover:border-b-slate-300">
+                <img class="w-6" src="./assets/icons/cabins.png" />
+                <span class="text-sm">Cabins</span>
+            </div>
+            <div class="flex items-center cursor-pointer flex-col opacity-60 hover:opacity-100 hover:border-b-[3px] hover:border-b-slate-300">
+                <img class="w-6" src="./assets/icons/icons.webp" />
+                <span class="text-sm">Icons</span>
+            </div>
+            <div class="flex items-center cursor-pointer flex-col opacity-60 hover:opacity-100 hover:border-b-[3px] hover:border-b-slate-300">
+                <img class="w-6" src="./assets/icons/omg.png" />
+                <span class="text-sm">OMG!</span>
+            </div>
+            <div class="flex items-center cursor-pointer flex-col opacity-60 hover:opacity-100 hover:border-b-[3px] hover:border-b-slate-300">
+                <img class="w-6" src="./assets/icons/countryside.png" />
+                <span class="text-sm">Countryside</span>
+            </div>
+        </div>
+        <div class="w-[280px] hidden md:flex flex-shrink-0 text-xs justify-between">
+            <div class="flex space-x-3 items-center border-[0.5px] border-slate-400 h-10 rounded-lg px-3 hover:bg-slate-100 hover:border-slate-700 hover:border-2">
+                <i class="fa fa-filter"></i>
+                <span>Filters</span>
+            </div>
+            <div class="border-[0.5px] border-slate-400 space-x-3 px-3 h-10 flex items-center rounded-lg hover:bg-slate-100 hover:border-slate-700 hover:border-2">
+                <span>Display total before texes</span>
+                <i class="fa fa-list"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- grid view -->
+    <div class="grid gap-6 grid-cols-1 py-6 md:py-0 px-6 md:px-10 lg:px-16 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div class="relative">
+            <div class="rounded-xl overflow-hidden aspect-[1.06] bg-slate-300">
+                <img class="aspect-square object-cover" src="./assets/lancashire.webp" />
+            </div>
+            <div class="absolute top-3 right-5">
+                <img class="w-8 hover:scale-110" src="./assets/icons/like.svg" />
+            </div>
+            <div class="flex justify-between mt-2 font-semibold">
+                <div>Luncashire, UK</div>
+                <div><i class="fa fa-star text-xs"></i> 4.97</div>
+            </div>
+            <p class="text-slate-600">258 kilometers away</p>
+            <p class="text-slate-600">8-13 Jan</p>
+            <p><span class="font-semibold">$17,878</span> night</p>
+        </div>
+        <div class="relative">
+            <div class="rounded-xl overflow-hidden aspect-[1.06]">
+                <img class="rounded-2xl aspect-square" src="./assets/silecroft.webp" />
+            </div>
+            <div class="absolute top-3 right-5">
+                <img class="w-8 hover:scale-110" src="./assets/icons/like.svg" />
+            </div>
+            <div class="flex justify-between mt-2 font-semibold">
+                <div>Silecroft, UK</div>
+                <div><i class="fa fa-star text-xs"></i> 4.93</div>
+            </div>
+            <p class="text-slate-600">214 kilometers away</p>
+            <p class="text-slate-600">8-13 Dec</p>
+            <p><span class="font-semibold">$18,679</span> night</p>
+        </div>
+        <div class="relative">
+            <div class="rounded-xl overflow-hidden aspect-[1.06]">
+                <img class="rounded-2xl aspect-square" src="./assets/Cumbria.webp" />
+            </div>
+            <div class="absolute top-3 right-5">
+                <img class="w-8 hover:scale-110" src="./assets/icons/like.svg" />
+            </div>
+            <div class="flex justify-between mt-2 font-semibold">
+                <div>Cumbria, UK</div>
+                <div><i class="fa fa-star text-xs"></i> 4.85</div>
+            </div>
+            <p class="text-slate-600">254 kilometers away</p>
+            <p class="text-slate-600">17-22 Nov</p>
+            <p><span class="font-semibold">$10,191</span> night</p>
+        </div>
+        <div class="relative">
+            <div class="rounded-xl overflow-hidden aspect-[1.06]">
+                <img class="rounded-2xl aspect-square" src="./assets/rhydcymerau.webp" />
+            </div>
+            <div class="absolute top-3 right-5">
+                <img class="w-8 hover:scale-110" src="./assets/icons/like.svg" />
+            </div>
+            <div class="flex justify-between mt-2 font-semibold">
+                <div>Rhydcymerau, UK</div>
+                <div><i class="fa fa-star text-xs"></i> 4.98</div>
+            </div>
+            <p class="text-slate-600">206 kilometers away</p>
+            <p class="text-slate-600">17-22 Nov</p>
+            <p><span class="font-semibold">$10,191</span> night</p>
+        </div>
+        <div class="relative">
+            <div class="rounded-xl overflow-hidden aspect-[1.06]">
+                <img class="rounded-2xl aspect-square" src="./assets/five_roads.webp" />
+            </div>
+            <div class="absolute top-3 right-5">
+                <img class="w-8 hover:scale-110" src="./assets/icons/like.svg" />
+            </div>
+            <div class="flex justify-between mt-2 font-semibold">
+                <div>Five Roads, UK</div>
+                <div><i class="fa fa-star text-xs"></i> 4.98</div>
+            </div>
+            <p class="text-slate-600">206 kilometers away</p>
+            <p class="text-slate-600">17-22 Nov</p>
+            <p><span class="font-semibold">$10,191</span> night</p>
+        </div>
+        <div class="relative">
+            <div class="rounded-xl overflow-hidden aspect-[1.06]">
+                <img class="rounded-2xl aspect-square" src="./assets/lancashire.webp" />
+            </div>
+            <div class="absolute top-3 right-5">
+                <img class="w-8 hover:scale-110" src="./assets/icons/like.svg" />
+            </div>
+            <div class="flex justify-between mt-2 font-semibold">
+                <div>Luncashire, UK</div>
+                <div><i class="fa fa-star text-xs"></i> 4.97</div>
+            </div>
+            <p class="text-slate-600">258 kilometers away</p>
+            <p class="text-slate-600">8-13 Jan</p>
+            <p><span class="font-semibold">$17,878</span> night</p>
+        </div>
+        <div class="relative">
+            <div class="rounded-xl overflow-hidden aspect-[1.06]">
+                <img class="rounded-2xl aspect-square" src="./assets/silecroft.webp" />
+            </div>
+            <div class="absolute top-3 right-5">
+                <img class="w-8 hover:scale-110" src="./assets/icons/like.svg" />
+            </div>
+            <div class="flex justify-between mt-2 font-semibold">
+                <div>Silecroft, UK</div>
+                <div><i class="fa fa-star text-xs"></i> 4.93</div>
+            </div>
+            <p class="text-slate-600">214 kilometers away</p>
+            <p class="text-slate-600">8-13 Dec</p>
+            <p><span class="font-semibold">$18,679</span> night</p>
+        </div>
+        <div class="relative">
+            <div class="rounded-xl overflow-hidden aspect-[1.06]">
+                <img class="rounded-2xl aspect-square" src="./assets/Cumbria.webp" />
+            </div>
+            <div class="absolute top-3 right-5">
+                <img class="w-8 hover:scale-110" src="./assets/icons/like.svg" />
+            </div>
+            <div class="flex justify-between mt-2 font-semibold">
+                <div>Cumbria, UK</div>
+                <div><i class="fa fa-star text-xs"></i> 4.85</div>
+            </div>
+            <p class="text-slate-600">254 kilometers away</p>
+            <p class="text-slate-600">17-22 Nov</p>
+            <p><span class="font-semibold">$10,191</span> night</p>
+        </div>
+        <div class="relative">
+            <div class="rounded-xl overflow-hidden aspect-[1.06]">
+                <img class="rounded-2xl aspect-square" src="./assets/rhydcymerau.webp" />
+            </div>
+            <div class="absolute top-3 right-5">
+                <img class="w-8 hover:scale-110" src="./assets/icons/like.svg" />
+            </div>
+            <div class="flex justify-between mt-2 font-semibold">
+                <div>Rhydcymerau, UK</div>
+                <div><i class="fa fa-star text-xs"></i> 4.98</div>
+            </div>
+            <p class="text-slate-600">206 kilometers away</p>
+            <p class="text-slate-600">17-22 Nov</p>
+            <p><span class="font-semibold">$10,191</span> night</p>
+        </div>
+        <div class="relative">
+            <div class="rounded-xl overflow-hidden aspect-[1.06]">
+                <img class="rounded-2xl aspect-square" src="./assets/five_roads.webp" />
+            </div>
+            <div class="absolute top-3 right-5">
+                <img class="w-8 hover:scale-110" src="./assets/icons/like.svg" />
+            </div>
+            <div class="flex justify-between mt-2 font-semibold">
+                <div>Five Roads, UK</div>
+                <div><i class="fa fa-star text-xs"></i> 4.98</div>
+            </div>
+            <p class="text-slate-600">206 kilometers away</p>
+            <p class="text-slate-600">17-22 Nov</p>
+            <p><span class="font-semibold">$10,191</span> night</p>
+        </div>
+        <div class="relative">
+            <div class="rounded-xl overflow-hidden aspect-[1.06]">
+                <img class="rounded-2xl aspect-square" src="./assets/lancashire.webp" />
+            </div>
+            <div class="absolute top-3 right-5">
+                <img class="w-8 hover:scale-110" src="./assets/icons/like.svg" />
+            </div>
+            <div class="flex justify-between mt-2 font-semibold">
+                <div>Luncashire, UK</div>
+                <div><i class="fa fa-star text-xs"></i> 4.97</div>
+            </div>
+            <p class="text-slate-600">258 kilometers away</p>
+            <p class="text-slate-600">8-13 Jan</p>
+            <p><span class="font-semibold">$17,878</span> night</p>
+        </div>
+        <div class="relative">
+            <div class="rounded-xl overflow-hidden aspect-[1.06]">
+                <img class="rounded-2xl aspect-square" src="./assets/silecroft.webp" />
+            </div>
+            <div class="absolute top-3 right-5">
+                <img class="w-8 hover:scale-110" src="./assets/icons/like.svg" />
+            </div>
+            <div class="flex justify-between mt-2 font-semibold">
+                <div>Silecroft, UK</div>
+                <div><i class="fa fa-star text-xs"></i> 4.93</div>
+            </div>
+            <p class="text-slate-600">214 kilometers away</p>
+            <p class="text-slate-600">8-13 Dec</p>
+            <p><span class="font-semibold">$18,679</span> night</p>
+        </div>
+        <div class="relative">
+            <div class="rounded-xl overflow-hidden aspect-[1.06]">
+                <img class="rounded-2xl aspect-square" src="./assets/Cumbria.webp" />
+            </div>
+            <div class="absolute top-3 right-5">
+                <img class="w-8 hover:scale-110" src="./assets/icons/like.svg" />
+            </div>
+            <div class="flex justify-between mt-2 font-semibold">
+                <div>Cumbria, UK</div>
+                <div><i class="fa fa-star text-xs"></i> 4.85</div>
+            </div>
+            <p class="text-slate-600">254 kilometers away</p>
+            <p class="text-slate-600">17-22 Nov</p>
+            <p><span class="font-semibold">$10,191</span> night</p>
+        </div>
+        <div class="relative">
+            <div class="rounded-xl overflow-hidden aspect-[1.06]">
+                <img class="rounded-2xl aspect-square" src="./assets/rhydcymerau.webp" />
+            </div>
+            <div class="absolute top-3 right-5">
+                <img class="w-8 hover:scale-110" src="./assets/icons/like.svg" />
+            </div>
+            <div class="flex justify-between mt-2 font-semibold">
+                <div>Rhydcymerau, UK</div>
+                <div><i class="fa fa-star text-xs"></i> 4.98</div>
+            </div>
+            <p class="text-slate-600">206 kilometers away</p>
+            <p class="text-slate-600">17-22 Nov</p>
+            <p><span class="font-semibold">$10,191</span> night</p>
+        </div>
+        <div class="relative">
+            <div class="rounded-xl overflow-hidden aspect-[1.06]">
+                <img class="rounded-2xl aspect-square" src="./assets/five_roads.webp" />
+            </div>
+            <div class="absolute top-3 right-5">
+                <img class="w-8 hover:scale-110" src="./assets/icons/like.svg" />
+            </div>
+            <div class="flex justify-between mt-2 font-semibold">
+                <div>Five Roads, UK</div>
+                <div><i class="fa fa-star text-xs"></i> 4.98</div>
+            </div>
+            <p class="text-slate-600">206 kilometers away</p>
+            <p class="text-slate-600">17-22 Nov</p>
+            <p><span class="font-semibold">$10,191</span> night</p>
+        </div>
+    </div>
+</body>
+
+</html>

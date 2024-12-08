@@ -2,7 +2,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2d7ccf47-227d-40dd-a056-15fc72f77253/deploy-status)](https://app.netlify.com/sites/myself-tusharr-tailwind-02/deploys)
 
 ## Airbnb-Clone--Tailwind-Exercise-02
- Responsive, Only Frontend
+ Responsive, Only Frontend...
 
  Live Preview : <a target="_blank" href="https://myself-tusharr-tailwind-02.netlify.app">Click Here</a>
 
